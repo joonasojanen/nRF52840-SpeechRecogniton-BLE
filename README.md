@@ -7,9 +7,17 @@ This project demonstrates a simple speech recognition system controlling an ESP3
 - **"three":** Changes the LED to blue.
 - **"happy":** Turns off the LED.
 
+## Contents
+
+#### [Setup Edge Impulse library](#setup-edge-impulse-and-create-ml-model-arduino-library-for-speech-recognition)
+#### [Setup ArduinoIDE](#setup-arduinoide)
+#### [Troubleshooting](#troubleshooting)
+
+---
+
 Here is a quick guide on how to use and implement this project:
 
-#### Setup Edge Impulse and create ML model Arduino library for speech recognition
+### Setup Edge Impulse and create ML model Arduino library for speech recognition
 
 1. Create an Edge Impulse account: https://edgeimpulse.com/
 2. Download datasets, in this case we use Google Speech commands dataset and keywords dataset.
@@ -96,7 +104,7 @@ Here is a quick guide on how to use and implement this project:
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/71126392/558f9492-b9b7-44de-917c-831373701b73)
 
-#### Setup ArduinoIDE
+### Setup ArduinoIDE
 
 1. Download ArduinoIDE: https://www.arduino.cc/en/software
 2. Add the library that we downloaded from Edge Impulse by going to Sketch -> Include Library -> Add .ZIP Library and select the downloaded library:
@@ -118,3 +126,5 @@ Here is a quick guide on how to use and implement this project:
 4. Lastly, download the required libraries by going to Sketch -> Include Library -> Manage Libraries... and download ArduinoBLE and LiquidCrystal.
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/71126392/bfb8f7b0-797d-4c64-9d0d-93f2f5d70be8)
+
+### Troubleshooting
