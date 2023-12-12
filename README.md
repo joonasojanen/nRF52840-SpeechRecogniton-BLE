@@ -12,6 +12,7 @@ This project demonstrates a simple speech recognition system controlling an ESP3
 #### [1. Setup Edge Impulse library](#setup-edge-impulse-and-create-ml-model-arduino-library-for-speech-recognition)
 #### [2. Setup ArduinoIDE](#setup-arduinoide)
 #### [3. Troubleshooting](#troubleshooting)
+#### [4. Setup esp32 hardware](#Setup-esp32-hardware)
 
 ---
 
@@ -126,5 +127,9 @@ Here is a quick guide on how to use and implement this project:
 4. Lastly, download the required libraries by going to Sketch -> Include Library -> Manage Libraries... and download ArduinoBLE and LiquidCrystal.
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/71126392/bfb8f7b0-797d-4c64-9d0d-93f2f5d70be8)
+
+### Setup esp32 hardware
+1. Here is a schematic of the esp32 hardware setup.
+   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/812d867e-d08b-49eb-990d-9cb9c9da2b60)
 
 ### Troubleshooting
