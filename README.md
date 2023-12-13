@@ -1,4 +1,4 @@
-This project demonstrates a simple speech recognition system controlling an ESP32 through a Bluetooth Low Energy (BLE) connection. The speech recognition model is developed using Edge Impulse and deployed on the Seeed Xiao BLE nRF52840 Sense board. In this project we used the SoundxVision ring prototype equipped with the nRF62840 board. The ESP32 board also has an RGB LED and an LCD screen connected to it. The LCD screen provides real-time feedback on the status of the Bluetooth connection.
+This project demonstrates a simple speech recognition system controlling an ESP32 through a Bluetooth Low Energy (BLE) connection. The speech recognition model is developed using Edge Impulse and deployed on the Seeed Xiao BLE nRF52840 Sense board. In this project we used the SoundxVision ring prototype equipped with the nRF52840 board. The ESP32 board also has an RGB LED and an LCD screen connected to it. The LCD screen provides real-time feedback on the status of the Bluetooth connection.
 
 #### Speech Commands
 
@@ -148,13 +148,20 @@ Here is a quick guide on how to use and implement this project:
 
    CH340x: [link to CH340x driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
-3. ESP32: Wrong boot mode detected (0x13)! The chip needs to be in download mode.
+2. ESP32: Wrong boot mode detected (0x13)! The chip needs to be in download mode.
 
    If you get this error you need to press boot button on the esp32 when the ArduinoIDE Output says Connecting.
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/2138556b-3edd-45cb-9a30-b13b70b94ff7)
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/3a60900a-b0f3-4482-b818-d3410dfdf908)
+
+3. nRF52840 won't show up on ArduinoIDE/computer doesn't recognice the device.
+
+   You need to press the reset button on nRF52840 board.
+
+   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/9c7aeb48-d99d-4276-9f70-595e6ea0dd90)
+
 
 
   
