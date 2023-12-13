@@ -126,7 +126,8 @@ Here is a quick guide on how to use and implement this project:
 
 4. Lastly, download the required libraries by going to Sketch -> Include Library -> Manage Libraries... and download ArduinoBLE and LiquidCrystal.
 
-   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/71126392/bfb8f7b0-797d-4c64-9d0d-93f2f5d70be8)
+   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/ee2ccf61-31a6-47e0-bf7e-593b0e3df498)
+
 
 ### Setup esp32 hardware
 
