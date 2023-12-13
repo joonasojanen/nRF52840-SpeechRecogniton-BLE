@@ -1,5 +1,7 @@
 This project demonstrates a simple speech recognition system controlling an ESP32 through a Bluetooth Low Energy (BLE) connection. The speech recognition model is developed using Edge Impulse and deployed on the Seeed Xiao BLE nRF52840 Sense board. In this project we used the SoundxVision ring prototype equipped with the nRF52840 board. The ESP32 board also has an RGB LED and an LCD screen connected to it. The LCD screen provides real-time feedback on the status of the Bluetooth connection.
 
+Here is quick video demo of the project: [link to demo video](https://youtu.be/gdWU_LjirzE)
+
 #### Speech Commands
 
 - **"one":** Changes the LED to red.
