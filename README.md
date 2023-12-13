@@ -126,10 +126,15 @@ Here is a quick guide on how to use and implement this project:
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/71126392/3f7b859b-205e-47da-bdad-2fc4ca1dcfa7)
 
-4. Lastly, download the required libraries by going to Sketch -> Include Library -> Manage Libraries... and download ArduinoBLE and LiquidCrystal.
+4. Download the required libraries by going to Sketch -> Include Library -> Manage Libraries... and download ArduinoBLE and LiquidCrystal.
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/ee2ccf61-31a6-47e0-bf7e-593b0e3df498)
 
+5. To run the project, download the central.ino and peripheral.ino files from this repository.
+   
+   Open central.ino, go to Tools -> Board -> esp32 -> Select ESP32 Dev Module. Then go to Tools -> Port -> Select the correct COM port of the ESP32, if it doesn't choose it automatically. Lastly upload by pressing the -> button.
+   
+   Open peripheral.ino, go to Tools -> Board -> Seeed nRF52 mbed-enabled Boards -> Select Seeed XIAO BLE Sense - nRF52840. Then go to Tools -> Port -> Select the correct COM port of the nRF52840, if it doesn't choose it automatically. Lastly upload by pressing the -> button.
 
 ### Setup esp32 hardware
 
@@ -143,7 +148,7 @@ Here is a quick guide on how to use and implement this project:
    
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/ac25c815-a6e6-4fb3-a52f-a071e22c6703)
 
-   If you get this error you need to download correct driver for the esp3, you can find which version you need by looking which code is found in your board CH340x or CP210x.
+   If you get this error you need to download correct driver for the esp32, you can find which version you need by looking which code is found in your board CH340x or CP210x.
 
    ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/fef7d727-56d0-48c3-bb35-a88703939f04)
 
