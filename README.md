@@ -138,5 +138,11 @@ Here is a quick guide on how to use and implement this project:
 
 1. No esp32 drivers found
 
-  If you get this error you need to download correct driver for the esp3, you can find which version you need by looking which code is found in your board CH340 or CP210x.
-  CP210x: ![link](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+  If you get this error you need to download correct driver for the esp3, you can find which version you need by looking which code is found in your board CH340x or CP210x.
+
+  ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/fef7d727-56d0-48c3-bb35-a88703939f04)
+  
+  CP210x: [link to CP210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+
+  CH340x: [link to CH340x driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
+  
