@@ -11,8 +11,8 @@ This project demonstrates a simple speech recognition system controlling an ESP3
 
 #### [1. Setup Edge Impulse library](#setup-edge-impulse-and-create-ml-model-arduino-library-for-speech-recognition)
 #### [2. Setup ArduinoIDE](#setup-arduinoide)
-#### [3. Troubleshooting](#troubleshooting)
-#### [4. Setup esp32 hardware](#Setup-esp32-hardware)
+#### [3. Setup esp32 hardware](#Setup-esp32-hardware)
+#### [4. Troubleshooting](#troubleshooting)
 
 ---
 
