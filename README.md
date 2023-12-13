@@ -136,13 +136,25 @@ Here is a quick guide on how to use and implement this project:
 
 ### Troubleshooting
 
-1. No esp32 drivers found
+1. ESP32: No serial data received.
+   
+   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/ac25c815-a6e6-4fb3-a52f-a071e22c6703)
 
-  If you get this error you need to download correct driver for the esp3, you can find which version you need by looking which code is found in your board CH340x or CP210x.
+   If you get this error you need to download correct driver for the esp3, you can find which version you need by looking which code is found in your board CH340x or CP210x.
 
-  ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/fef7d727-56d0-48c3-bb35-a88703939f04)
-  
-  CP210x: [link to CP210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/fef7d727-56d0-48c3-bb35-a88703939f04)
 
-  CH340x: [link to CH340x driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
+   CP210x: [link to CP210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+
+   CH340x: [link to CH340x driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
+
+3. ESP32: Wrong boot mode detected (0x13)! The chip needs to be in download mode.
+
+   If you get this error you need to press boot button on the esp32 when the ArduinoIDE Output says Connecting.
+
+   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/2138556b-3edd-45cb-9a30-b13b70b94ff7)
+
+   ![kuva](https://github.com/LasseRapo/nRF52840-SpeechRecogniton-BLE/assets/107210277/3a60900a-b0f3-4482-b818-d3410dfdf908)
+
+
   
